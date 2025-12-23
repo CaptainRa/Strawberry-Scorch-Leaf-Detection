@@ -1,3 +1,2 @@
 Nama : Tara Tirzandina
-NIM : 24060122130060
-
+\nNIM : 24060122130060
