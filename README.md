@@ -1,2 +1,3 @@
-Nama : Tara Tirzandina
-\nNIM : 24060122130060
+#TUGAS BESAR VISI KOMPUTER
+##Nama : Tara Tirzandina
+##NIM : 24060122130060
