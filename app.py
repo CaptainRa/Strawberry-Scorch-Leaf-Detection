@@ -121,19 +121,15 @@ else :
             if not ret:
                 break
             
-            # Predict pada frame
             results = model.predict(source=frame, conf=0.3, iou=0.5, verbose=False)
             
-            # Ambil frame dengan bounding box
             annotated_frame = results[0].plot()
             annotated_frame_rgb = cv2.cvtColor(annotated_frame, cv2.COLOR_BGR2RGB)
             
-            # Debug info
             if len(results) > 0 and results[0].boxes is not None:
                 num_detections = len(results[0].boxes)
                 info_placeholder.write(f"Deteksi: {num_detections} object")
             
-            # Tampilkan frame
             frame_placeholder.image(annotated_frame_rgb, use_column_width=True)
             
             if stop_detection:
