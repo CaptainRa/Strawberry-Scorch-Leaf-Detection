@@ -1,3 +1,7 @@
+# Tara Tirzandina - 24060122130060
+# Link GITHUB lengkap : https://github.com/CaptainRa/Strawberry-Scorch-Leaf-Detection
+# Video Presentasi : https://youtu.be/WkJloJWIi8U
+
 import streamlit as st
 from ultralytics import YOLO
 import cv2
