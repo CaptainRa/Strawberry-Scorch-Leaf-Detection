@@ -1,3 +1,1 @@
-#TUGAS BESAR VISI KOMPUTER
-##Nama : Tara Tirzandina
-##NIM : 24060122130060
+Clone this repo and run "streamlit run app.py"
